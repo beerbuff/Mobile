@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-list>
+        <ion-item (click)="NowPlaying()">
+          <ion-thumbnail item-start>
+            <img src="http://localhost/imgs/video-camera.png">
+          </ion-thumbnail>
+          <h2>Now</h2>
+          <p>Now Playing</p>
+          <button ion-button clear item-end>View</button>
+        </ion-item>
+
+
+        <ion-item (click)="Upcoming()">
+            <ion-thumbnail item-start>
+              <img src="http://localhost/imgs/video-play.png">
+            </ion-thumbnail>
+            <h2>Upcoming</h2>
+            <p>Upcoming Movie</p>
+            <button ion-button clear item-end (click)="Upcoming()">View</button>
+          </ion-item>
+
+
+
+
+          <ion-item (click)="Popular()">
+              <ion-thumbnail item-start>
+                <img src="http://localhost/imgs/clapperboard.png">
+              </ion-thumbnail>
+              <h2>Popular</h2>
+              <p>Popular Movie</p>
+              <button ion-button clear item-end>View</button>
+            </ion-item>
+
+
+
+
+
+
+            <ion-item (click)="TopRate()">
+                <ion-thumbnail item-start>
+                  <img src="http://localhost/imgs/top-games-star.png">
+                </ion-thumbnail>
+                <h2>Top Rated</h2>
+                <p>Top Rated Movie</p>
+                <button ion-button clear item-end>View</button>
+              </ion-item>
+
+
+
+      </ion-list>
+
+
+</ion-content>
