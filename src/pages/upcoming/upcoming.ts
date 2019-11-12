@@ -35,7 +35,7 @@ export class UpcomingPage {
 
 
   viewDetail(item){
-    this.navCtrl.push("MovieDetailPage", item);
+    this.navCtrl.push("MovieDetailPage",item);
   }
 
 

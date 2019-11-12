@@ -12,7 +12,7 @@
 
     <ion-item *ngFor="let item of ObArray">
       <ion-thumbnail item-start>
-        <img src = "">
+        <img src = "https://image.tmdb.org/t/p/original/{{item.poster_path}}">
       </ion-thumbnail>
       <h2>Name : {{item.title}} </h2>
       <p>Date : {{item.release_date}}</p>

@@ -13,7 +13,7 @@
   
       <ion-item *ngFor="let item of UpArray" (click)="viewDetail(item)">
         <ion-thumbnail item-start>
-          <img src = "{{item.poster_path}}">
+          <img src = "https://image.tmdb.org/t/p/original/{{item.poster_path}}">
         </ion-thumbnail>
         <h2>Name : {{item.title}} </h2>
         <p>Date : {{item.release_date}}</p>

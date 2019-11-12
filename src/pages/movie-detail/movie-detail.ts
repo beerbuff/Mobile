@@ -18,7 +18,7 @@ export class MovieDetailPage {
 
   DetailArray = {title:'',release_date:'',overview:''};
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient) {
-  
+ 
   }
 
   ionViewDidLoad() {
@@ -26,7 +26,8 @@ export class MovieDetailPage {
     this.DetailArray = this.navParams.data;
     console.log(this.DetailArray);
   }
-
+  
+ 
   
 
 
